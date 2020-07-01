@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text editor</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="controls">
+            <button class="btn btn__edit">
+                <i class="far fa-edit"></i>
+            </button>
+            <button class="btn btn__save" disabled="true">
+                <i class="far fa-save"></i>
+            </button>
+            <button class="btn btn__load">
+                <i class="far fa-folder-open"></i>
+            </button>
+            <button class="btn btn__cancel" disabled="true">
+                <i class="fas fa-ban"></i>
+            </button> 
+        </div>
+        <ul class="load">
+
+        </ul>              
+    </header>
+    <main class="main">
+        <div class="text-container"></div>
+    </main>
+</body>
+</html>
